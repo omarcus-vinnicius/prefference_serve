@@ -1,0 +1,26 @@
+@import './vars.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vw;
+}
+
+@media print {
+
+    .container-default-header {
+        display: none;
+    }
+}
+
+
+
+///Pages  
+@import './pages/home/index.scss';
+
+/// Components
+@import 'components/home/container-div-logo.scss';
+@import 'components/home/icon-link-site-component.scss';

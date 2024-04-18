@@ -1,0 +1,27 @@
+.ContainerIconLinkSite{
+    display: flex;
+    width: 123px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+    gap: 1px;
+
+.iconLogo{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    color: $base-second-color-dark-bege;
+
+
+}
+
+.IconLinkSiteTexrt{
+   color: $base-second-color-dark-bege;
+   font-size: 20px;
+   font-family: $base-font-Spectral;
+   font-weight: 400;
+}
+
+}

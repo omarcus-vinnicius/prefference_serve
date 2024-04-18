@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 717px;
+    flex-direction: column;
+   
+    #Conatiner_headerHome{
+        display: flex;
+        width: auto;
+        height:217px ;
+        padding-left: 130px;
+        padding-right: 250px;
+        background-color: $base-second-dark-color;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    #ContainerBanner_Slade_headerHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+    #ContainerBanner_headerHome {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-image: url('../../../../public/img/Banner.svg');
+        }
+    }
+    
+}
